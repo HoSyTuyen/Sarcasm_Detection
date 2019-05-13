@@ -213,7 +213,7 @@ def Compute_IDF(data, diction):
 
 def main():
 	# đọc file
-	path = 'D:/Document/Machine_Learning/CS3/Sarcasm_Headlines_Dataset.json'
+	path = 'C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/Sarcasm_Headlines_Dataset.json'
 	Data = pd.read_json(path, lines = True)
 
 
@@ -224,16 +224,16 @@ def main():
 	diction = create_list_diction(processed_data_stopwords[:20000])
 	# tính boolean
 	bl = boolean(processed_data_stopwords, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/boolean_processed_data_sw.npz', bl)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/boolean_processed_data_sw.npz', bl)
 	# tính tf
 	tf = Compute_TF(processed_data_stopwords, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/tf_processed_data_sw.npz', tf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/tf_processed_data_sw.npz', tf)
 	# tính idf
 	idf = Compute_IDF(processed_data_stopwords, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/idf_processed_data_sw.npz', idf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/idf_processed_data_sw.npz', idf)
 	# tính tfidf
 	tf_idf = Compute_TF_IDF(processed_data_stopwords, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/tf_idf_processed_data_sw.npz', tf_idf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/tf_idf_processed_data_sw.npz', tf_idf)
 
 
 
@@ -244,16 +244,16 @@ def main():
 	diction = create_list_diction(processed_data_punctuation[:20000])
 	# tính boolean
 	bl = boolean(processed_data_punctuation, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/boolean_processed_data_pt.npz', bl)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/boolean_processed_data_pt.npz', bl)
 	# tính tf
 	tf = Compute_TF(processed_data_punctuation, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/tf_processed_data_pt.npz', tf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/tf_processed_data_pt.npz', tf)
 	# tính idf
 	idf = Compute_IDF(processed_data_punctuation, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/idf_processed_data_pt.npz', idf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/idf_processed_data_pt.npz', idf)
 	# tính tfidf
 	tf_idf = Compute_TF_IDF(processed_data_punctuation, diction)
-	sp.save_npz('D:/Document/Machine_Learning/CS3/tf_idf_processed_data_pt.npz', tf_idf)
+	sp.save_npz('C:/Users/Admin/Downloads/NLTK_is_Sarcastic-master/PreProcessed_Data/tf_idf_processed_data_pt.npz', tf_idf)
 
 
 
