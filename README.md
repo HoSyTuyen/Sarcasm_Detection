@@ -23,6 +23,7 @@
 -   Predicting_By_Function.py: file chứa mã nguồn để dự đoán kết quả thông qua thư viện có sẵn.
 -   Sarcasm_Headlines_Dataset.json: data gốc.
 -   label.npy: file chứ nhãn đã được mã hóa.
--   report.pdf: file báo cáo tổng hợp.
+-   report.pdf: file báo cáo tổng hợp dạng pdf.
+-   report.docx: file báo cáo tổng hợp dạng word.
 -   stopwords.txt: file chứa các stopwords.
     
