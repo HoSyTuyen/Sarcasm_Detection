@@ -19,11 +19,10 @@
     + Logistic_Regression_tf_idf_processed_data_sw.ipynb: file chứa mã nguồn + báo cáo kết quả tf-idf + bỏ stopwords.
     + Logistic_Regression_tf_processed_data_pt.ipynb: file chứa mã nguồn + báo cáo kết quả tf + không bỏ stopwords.
     + Logistic_Regression_tf_processed_data_sw.ipynb: file chứa mã nguồn + báo cáo kết quả tf + bỏ stopwords.
+-   CASE_STUDY_3_REPORT_SARCASM_HEADLINES_DATASETS-17520324_17520828_17521244.rar: file chứa báo cáo Case Study 3
 -   Evaluate.py (code tay): file chứa mã nguồn để đánh giá model.
 -   Predicting_By_Function.py (code hàm): file chứa mã nguồn thực thi bài toán thông qua thư viện có sẵn.
 -   Sarcasm_Headlines_Dataset.json: data gốc.
 -   label.npy: file chứ nhãn đã được mã hóa.
--   report.pdf: file báo cáo tổng hợp dạng pdf.
--   report.docx: file báo cáo tổng hợp dạng word.
 -   stopwords.txt: file chứa các stopwords.
     
