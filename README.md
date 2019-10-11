@@ -20,5 +20,5 @@
 # Result
 - Evaluation using different preprocessing data method:
 ![alt text](https://github.com/HoSyTuyen/Kaggle-Sarcasm-Detection/blob/master/Result_on_preprocessing.png)
-- Evaluation using different model classification on best preprocessing data method:
+- Evaluation using different model classification on the best preprocessing data method:
 ![alt text](https://github.com/HoSyTuyen/Kaggle-Sarcasm-Detection/blob/master/Final_result.png)
