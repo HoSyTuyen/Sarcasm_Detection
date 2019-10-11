@@ -18,6 +18,4 @@
 - B2: Building model.
 - B3: Evaluation.
 # Result
-
-
-    
+![alt text](https://github.com/HoSyTuyen/Kaggle-Sarcasm-Detection/blob/master/Result.png)
